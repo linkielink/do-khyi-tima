@@ -21,8 +21,9 @@ export default function StatsCard() {
               $TIMA
             </h1>
             <h2 className='w-full text-xl text-center text-black dark:text-white'>Do Khyi</h2>
-            <h3 className='w-full italic text-center text-black dark:text-white/50'>
-              Tibetan Mastiff
+            <h3 className='w-full italic text-center text-black/70 dark:text-white/70'>
+              <span className='text-black dark:text-white'>Ti</span>betan{' '}
+              <span className='text-black dark:text-white'>Ma</span>stiff
             </h3>
           </div>
           <div className='flex flex-wrap justify-center w-full gap-4 p-4 md:gap-2 md:p-0'>

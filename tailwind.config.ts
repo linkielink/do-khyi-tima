@@ -67,27 +67,28 @@ export default {
           backgroundSize: 'cover',
         },
         '.bg-card-token': {
-          backgroundImage: 'url("/cards/token-card-bg.webp")',
+          backgroundImage: 'url("/cards/token-card-bg.webp"),url("/cards/token-card-bg.png")',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'bottom right',
           backgroundSize: 'cover',
         },
         '.bg-card-bigger-than-a-bull': {
-          backgroundImage: 'url("/cards/bigger-than-a-bull.webp")',
+          backgroundImage:
+            'url("/cards/bigger-than-a-bull.webp"),url("/cards/bigger-than-a-bull.jpg")',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center right',
-          backgroundSize: 'cover',
-        },
-        '.bg-card-fight': {
-          backgroundImage: 'url("/banner.webp")',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
           backgroundSize: 'cover',
         },
         '.bg-card-download': {
           backgroundImage: 'url("/cards/download.webp")',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
+          backgroundSize: 'cover',
+        },
+        '.bg-card-queen': {
+          backgroundImage: 'url("/cards/queens-tima.webp"),url("/cards/queens-tima.jpg")',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'top center',
           backgroundSize: 'cover',
         },
         '.gradient-telegram': {

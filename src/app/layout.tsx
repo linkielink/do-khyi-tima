@@ -22,7 +22,7 @@ export default function RootLayout({
         <meta name='theme-color' content='#000000' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
-      <body className='min-h-screen p-4 m-0 bg-white md:p-20 dark:bg-black dark:bg-mobile-dark bg-mobile md:bg-main dark:md:bg-main-dark scrollbar-hide'>
+      <body className='min-h-screen p-4 m-0 bg-white lg:p-20 md:p-10 dark:bg-black dark:bg-mobile-dark bg-mobile md:bg-main dark:md:bg-main-dark scrollbar-hide'>
         <main className='grid w-full grid-cols-1 gap-10 md:gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xxl:grid-cols-5'>
           {children}
         </main>

@@ -11,7 +11,7 @@ export default function Card(props: Props) {
   return (
     <section
       className={classNames(
-        'flex w-full bg-white rounded-md dark:bg-stone-950 md:h-card min-h-[150px] drop-shadow-lg overflow-hidden',
+        'flex w-full bg-white rounded-md dark:bg-stone-950 md:h-card min-h-[250px] drop-shadow-lg overflow-hidden',
         className,
       )}
     >

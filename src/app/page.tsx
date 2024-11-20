@@ -7,46 +7,10 @@ export default function Home() {
   return (
     <>
       <StatsCard />
-
-      <Card className='bg-card-bigger-than-a-bull'>
-        <div className='flex flex-wrap content-start w-full h-full gap-4 p-4 justify-left items-top bg-white/60 dark:bg-black/60'>
-          <p className='w-full text-xl italic text-black md:w-4/5 dark:text-white'>
-            The Tibetan Mastiff is one of the biggest dogs in the world, with adult males tipping
-            the scales at a whopping 90 to 150 pounds - and some legendary beasts reaching a massive
-            200 pounds! Standing up to 30 inches tall, these giants can go paw-to-paw with a bull.
-          </p>
-        </div>
-      </Card>
-
-      <Card>
-        <div className='flex flex-wrap content-center justify-center w-full h-full gap-10 p-10 bg-black'>
-          <div className='flex justify-center w-full'>
-            <div className='block w-[150px]'>
-              <svg viewBox='0 0 300 271' xmlns='http://www.w3.org/2000/svg'>
-                <path
-                  fill='#FFF'
-                  d='m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z'
-                />
-              </svg>
-            </div>
-          </div>
-          <Button text='Follow @timasol on X' href='' />
-        </div>
-      </Card>
-
-      <Card className='flex-wrap justify-center md:flex-nowrap'>
-        <Image src='/cards/crying-bear.jpg' alt='$TIMA making bears cry' width='360' height='360' />
-        <div className='flex items-center content-start w-full gap-4 p-4 md:h-full justify-left'>
-          <p className='w-full text-2xl italic text-center text-black dark:text-white'>
-            $TIMA is making bears cry!
-          </p>
-        </div>
-      </Card>
-
       <Card>
         <div className='flex flex-wrap content-center justify-center w-full h-full gap-10 p-10 gradient-telegram'>
           <div className='flex justify-center w-full'>
-            <div className='block w-[160px]'>
+            <div className='block w-[166px]'>
               <svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 239.6 196.9'>
                 <path
                   d='M58.4,112.2l26.3,72.5s3.3,6.8,6.8,6.8,55.9-54.3,55.9-54.3l58.2-112.1L59.4,93.5l-.9,18.7Z'
@@ -67,7 +31,47 @@ export default function Home() {
         </div>
       </Card>
 
-      <Card className='bg-card-fight'>
+      <Card>
+        <div className='flex flex-wrap content-center justify-center w-full h-full gap-10 p-10 bg-black'>
+          <div className='flex justify-center w-full'>
+            <div className='block w-[150px]'>
+              <svg viewBox='0 0 300 271' xmlns='http://www.w3.org/2000/svg'>
+                <path
+                  fill='#FFF'
+                  d='m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z'
+                />
+              </svg>
+            </div>
+          </div>
+          <Button text='Follow @dokhyitima on X' href='https://x.com/dokhyitima' />
+        </div>
+      </Card>
+
+      <Card className='bg-card-bigger-than-a-bull'>
+        <div className='flex flex-wrap content-start w-full h-full gap-4 p-4 justify-left items-top bg-white/60 dark:bg-black/60'>
+          <p className='w-full text-xl italic text-black md:w-4/5 dark:text-white'>
+            The Tibetan Mastiff is one of the biggest dogs in the world, with adult males tipping
+            the scales at a whopping 90 to 150 pounds - and some legendary beasts reaching a massive
+            200 pounds! Standing up to 30 inches tall, these giants can go paw-to-paw with a bull.
+          </p>
+        </div>
+      </Card>
+
+      <Card className='flex-wrap justify-center md:flex-nowrap'>
+        <Image
+          src='/cards/crying-bear.webp'
+          alt='$TIMA making bears cry'
+          width='360'
+          height='360'
+        />
+        <div className='flex items-center content-start w-full gap-4 p-4 md:h-full justify-left'>
+          <p className='w-full text-2xl italic text-center text-black dark:text-white'>
+            $TIMA is making bears cry!
+          </p>
+        </div>
+      </Card>
+
+      <Card className='bg-card-queen'>
         <div className='flex flex-wrap content-center justify-center w-full h-full gap-4 p-4 items-top bg-white/60 dark:bg-black/60'>
           <p className='text-xl italic text-center text-black md:w-4/5 dark:text-white'>
             The giant herding dog from Tibet found its way into the British royal family as early as
@@ -85,23 +89,25 @@ export default function Home() {
           was regarded as a very valuable asset and lived in very close contact with its people.
         </p>
         <Image
-          src='/cards/shephard.jpg'
+          src='/cards/shephard.webp'
           alt='The Do Khyi is an ancient breed of dog that originated in one of the worlds most hostile
           mountain ranges, the Himalaya'
           width='360'
           height='360'
         />
-        '
       </Card>
 
-      <Card className='bg-card-fight'>
-        <div className='flex flex-wrap content-center justify-center w-full h-full gap-4 p-4 items-top bg-white/60 dark:bg-black/60'>
-          <p className='text-xl italic text-center text-black md:w-4/5 dark:text-white'>
-            In China, the Do Khyi has become a status symbol. The richest of the rich are happy to
-            pay six or seven-figure sums to adorn themselves with the most expensive dog in the
-            world.
-          </p>
-        </div>
+      <Card className='flex-wrap items-center justify-center md:flex-nowrap'>
+        <p className='p-4 text-sm italic text-center text-black md:w-4/5 dark:text-white'>
+          In China, the Do Khyi has become a status symbol. The richest of the rich are happy to pay
+          six or seven-figure sums to adorn themselves with the most expensive dog in the world.
+        </p>
+        <Image
+          src='/cards/chinese-wealth.webp'
+          alt='In China, the Do Khyi has become a status symbol'
+          width='360'
+          height='360'
+        />
       </Card>
 
       <Card className='bg-card-download'>
