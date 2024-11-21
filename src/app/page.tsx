@@ -27,12 +27,12 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <Button text='Join $TIMA Telegram Group' href='' />
+          <Button text='Join $TIMA Telegram Group' href='https://t.me/DoKhyiTima' />
         </div>
       </Card>
 
-      <Card>
-        <div className='flex flex-wrap content-center justify-center w-full h-full gap-10 p-10 bg-black'>
+      <Card className='bg-card-fight'>
+        <div className='flex flex-wrap content-center justify-center w-full h-full gap-10 p-10 bg-black/80'>
           <div className='flex justify-center w-full'>
             <div className='block w-[150px]'>
               <svg viewBox='0 0 300 271' xmlns='http://www.w3.org/2000/svg'>

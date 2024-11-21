@@ -79,6 +79,13 @@ export default {
           backgroundPosition: 'center right',
           backgroundSize: 'cover',
         },
+
+        '.bg-card-fight': {
+          backgroundImage: 'url("/banner.webp"),url("/banner.jpg")',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+        },
         '.bg-card-download': {
           backgroundImage: 'url("/cards/download.webp")',
           backgroundRepeat: 'no-repeat',
