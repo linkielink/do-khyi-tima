@@ -87,7 +87,7 @@ const fetcher = () =>
   })
 
 export default function useTokenStats() {
-  return useSWR(TOKEN_CONTRACT !== 'xxx' && PAIR_ADDRESS !== 'xxx' && 'fetch/coinStats', fetcher, {
+  return useSWR('fetch/coinStats', fetcher, {
     suspense: false,
     refreshInterval: 10_000,
     revalidateIfStale: true,
