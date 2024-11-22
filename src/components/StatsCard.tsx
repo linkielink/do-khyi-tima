@@ -16,7 +16,7 @@ export default function StatsCard() {
     <Card className='bg-card-token'>
       <div className='flex items-center w-full h-full p-4'>
         <Image src='/token.png' alt='$TIMA Token Logo' width='200' height='200' />
-        <div className='flex flex-wrap content-equally h-full'>
+        <div className='flex flex-wrap content-between h-full'>
           <div className='flex flex-wrap w-full gap-1 content-start'>
             <h1 className='w-full text-2xl font-bold text-center text-black dark:text-white'>
               $TIMA
