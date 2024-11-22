@@ -2,7 +2,7 @@
 import Button from 'components/Button'
 import Card from 'components/Card'
 import Metric from 'components/Metric'
-import { PAIR_ADDRESS, TOKEN_CONTRACT } from 'constants/tokenData'
+import { PAIR_ADDRESS } from 'constants/tokenData'
 import useTokenStats from 'hooks/useTokenStats'
 import Image from 'next/image'
 import { formatValue } from 'utils/format'
@@ -10,10 +10,7 @@ import { formatValue } from 'utils/format'
 export default function StatsCard() {
   const { data, isLoading } = useTokenStats()
 
-  const buyLink =
-    PAIR_ADDRESS === 'xxx'
-      ? `https://pump.fun/coin/${TOKEN_CONTRACT}`
-      : `https://dexscreener.com/solana/${PAIR_ADDRESS}`
+  const buyLink = `https://dexscreener.com/solana/${PAIR_ADDRESS}`
 
   return (
     <Card className='bg-card-token'>
@@ -60,11 +57,10 @@ export default function StatsCard() {
               isLoading={isLoading}
             />
           </div>
-          {TOKEN_CONTRACT !== 'xxx' && (
-            <div className='flex justify-center w-full'>
-              <Button text='Buy $TIMA' href={buyLink.toLocaleLowerCase()} />
-            </div>
-          )}
+
+          <div className='flex justify-center w-full'>
+            <Button text='Buy $TIMA' href={buyLink.toLocaleLowerCase()} />
+          </div>
         </div>
       </div>
     </Card>
